@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/Images/bg.jpg);
+    background-size: cover;
+    height: 200vh;
+    color: white;
+}
+
+.left {
+    /* border: solid white; */
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.left img {
+    width: 101px;
+    margin: -20px -31px;
+}
+
+.left p {
+    margin: -26px 24px;
+    font-family: 'Rowdies', cursive;
+}
+
+
+.right {
+    /* border: solid white; */
+    position: absolute;
+    right: 24px;
+    top: 14px;
+}
+
+button {
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(69, 255, 193);
+    color: black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+.middle {
+    width: 50%;
+    /* border: solid green; */
+    margin: 29px auto;
+    display: block;
+
+}
+
+.navbar {
+    /* margin: 0px; */
+    padding: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 37px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li a:hover {
+    color: rgb(110, 255, 62);
+}
+
+.container {
+    /* display: inline-block; */
+    border: solid 2px rgb(0, 176, 117);
+    width: 37%;
+    height: 67vh;
+    margin: 65px 7vw;
+    border-radius: 40px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+form .form-design {
+    display: block;
+    width: 356px;
+    margin: 25px auto;
+    /* text-align: center; */
+    padding: 7px;
+    font-family: 'Rowdies', cursive;
+    font-size: 15px;
+}
+
+.container button {
+    display: block;
+    width: 380px;
+    margin: 40px auto;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+}
